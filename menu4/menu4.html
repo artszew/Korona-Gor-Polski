@@ -1,0 +1,81 @@
+<!DOCTYPE html
+  PUBLIC "XSLT-compat">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<style>
+			body {font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0;}
+          
+			header {background-color: #333; color: #ffffff; text-align: center; padding: 10px;}
+		  
+			nav {background-color: #333; color: #ffffff; text-align: center; padding: 0px 10px 10px 10px;}
+			
+			nav a {color: #ffffff; text-decoration: none; margin: 0 15px;}
+		  
+			section {display: flex; justify-content: space-around; flex-wrap: wrap; padding: 20px;}
+          
+			.text-block {width: 100%; margin: 20px 15px; padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}
+          
+			table {border-collapse: collapse; width: 100%;}
+        
+			th, td {border: 1px solid #ddd; padding: 8px; text-align: left;}
+        
+			th {background-color: #333; color: #fff;}
+		  
+			.validation-img {width: 80%; margin-top: 4px; border-radius: 16px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border: 5px solid #555;}
+			
+			.link {color: #333; text-decoration: none;}
+		
+			.link:hover {color: blue; text-decoration: underline;}
+			
+			.block-container {display:block;background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); padding: 15px; width: 100%; margin: 20px 15px;}
+		
+			.back-button-container {display: flex; justify-content: space-between;}
+
+			.back-button {display: block; margin: 20px 15px; padding: 10px 20px; border-radius: 8px; background-color: #333; color: #fff; text-decoration: none; transition: background-color 0.3s ease;}
+
+			.back-button:hover {background-color: #555;}
+        </style>
+        
+        <title>XSLT</title>
+   </head>
+   <body>
+       <header>
+        <h1>Menu 4 - XSLT transformations</h1>
+		</header>
+    
+		<nav>
+			<a href="../menu0/menu0.html">Main Menu</a>
+			<a href="../menu1/menu1.html">Menu 1</a>
+			<a href="../menu2/menu2.html">Menu 2</a>
+			<a href="../menu3/menu3.html">Menu 3</a>
+			<a href="../menu4/menu4.html">Menu 4</a>
+		</nav>
+	   
+		<section>
+			<div class ="block-container">
+				<h2> XSLT transformation 1 - XHTML page</h2>
+				<a href="../menu4/transformation1.xhtml" target="_blank" class="link">Press here to see transformation of my XML Document to the XHTML page with some statistics (new window).</a>
+			<h2>Well validation of XSLT 1.0 strict transformation:</h2>
+		<img class="validation-img" src="XSLT-validation.png" alt="Screen from XSLT 1.0 strict validator where document is passed and tentatively checked.">
+		<p>I validated my transformation on this page: <a href="https://validator.w3.org/check" target="_blank" class="link">https://validator.w3.org/check</a></p>
+			</div>
+			
+			<div class ="block-container">
+				<h2> XSLT transformation 2 - text document</h2>
+				<a href="../menu4/transformation2.txt" target="_blank" class="link">Press here to see transformation of my XML Document to the text table (new window).</a>
+			</div>
+			
+			<div class ="block-container">
+				<h2> XSLT transformation 3 - SVG chart</h2>
+				<a href="../menu4/transformation3.svg" target="_blank" class="link">Press here to see transformation of my XML Document to the SVG char (new window).</a>
+			</div>
+		</section>
+	   
+		<div class="back-button-container">
+				<a href="../menu3/menu3.html" class="back-button">Back to the previous page - XML Schema</a>
+				<a href="../menu0/menu0.html" class="back-button">Return to the Main Menu</a>
+				<a href="../menu4/menu4.html" class="back-button">There aren't any next pages</a>
+		</div>
+   </body>
+</html>

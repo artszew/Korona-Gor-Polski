@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100" height="100">
+	
+	<!--Gradients-->
+		<!--Background gradients-->
+			<radialGradient id="backgroundGradient_1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+				<stop offset="0%" style="stop-color:#1a1a00;stop-opacity:1" />
+				<stop offset="90%" style="stop-color:#ffff33;stop-opacity:1" />
+				<stop offset="100%" style="stop-color:#ffff99;stop-opacity:1" />
+			</radialGradient>
+		<!--Hair gradient-->
+			<linearGradient id="hairGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+				<stop offset="0%" style="stop-color:#0d0d0d;stop-opacity:1" />
+				<stop offset="100%" style="stop-color:#734d26;stop-opacity:1" />
+			</linearGradient>
+		<!--Whites gradient -->	
+			<radialGradient id="whitesGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+				<stop offset="50%" style="stop-color:#ffffff;stop-opacity:1" />
+				<stop offset="100%" style="stop-color:#d9d9d9;stop-opacity:1" />
+			</radialGradient>
+		<!--Skin gradient-->
+			<radialGradient id="skinGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+				<stop offset="0%" style="stop-color:#fff1e6;stop-opacity:1" />
+				<stop offset="100%" style="stop-color:#ffdab9;stop-opacity:1" />
+			</radialGradient>
+		<!--Mouth gradient-->
+			<radialGradient id="mouthGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+				<stop offset="0%" style="stop-color:#cc2900;stop-opacity:1" />
+				<stop offset="100%" style="stop-color:#ffc2b3;stop-opacity:1" />
+			</radialGradient>
+		<!--Shirt gradients-->
+			<radialGradient id="shirtGradient_1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+				<stop offset="0%" style="stop-color:#ccffdd;stop-opacity:1" />
+				<stop offset="100%" style="stop-color:#00e64d;stop-opacity:1" />
+			</radialGradient>
+		<!--Glasses gradient-->
+			<linearGradient id="glassesGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+				<stop offset="0%" style="stop-color:#000;stop-opacity:1" />
+				<stop offset="100%" style="stop-color:#333;stop-opacity:1" />
+			</linearGradient>
+	
+	
+	<!-- Elements-->
+		<!--Background-->
+			<rect width="100%" height="100%" fill="url(#backgroundGradient_1)">
+			</rect>
+		<!--Head-->
+			<circle cx="100" cy="100" r="80" fill="url(#skinGradient)" />
+		<!--Eyes-->
+			<!--Whites-->
+				<ellipse cx="80" cy="80" rx="15" ry="10" fill="url(#whitesGradient)" />
+				<ellipse cx="120" cy="80" rx="15" ry="10" fill="url(#whitesGradient)"/>
+			<!--Irises-->
+				<circle cx="80" cy="80" r="6" fill="#87ceeb" >
+				<animate attributeType="CSS" attributeName="fill" values="#33d6ff;#53c653;#33d6ff" dur="6" repeatCount="indefinite" />
+				</circle>
+				<circle cx="120" cy="80" r="6" fill="#87ceeb" >
+				<animate attributeType="CSS" attributeName="fill" values="#33d6ff;#53c653;#33d6ff" dur="6" repeatCount="indefinite" />
+				</circle>
+			<!--Pupils -->
+				<circle cx="80" cy="80" r="2" fill="#000" />
+				<circle cx="120" cy="80" r="2" fill="#000" />
+
+		<!--Eyebrows-->
+			<path d="M 68 68 Q 80 65 92 68" stroke-width="0.75" stroke="url(#hairGradient)" fill="none" >
+			</path>
+			<path d="M 108 68 Q 120 65 132 68" stroke-width="0.75" stroke="url(#hairGradient)" fill="none" >
+			</path>
+		<!--Nouse-->
+			<polygon points="82,120 100,70 118,120" fill="url(#skinGradient)" />
+		<!--Glasses-->
+			<ellipse cx="80" cy="80" rx="15" ry="10" fill="none" stroke="url(#glassesGradient)">
+				<animate attributeName="opacity" values="1;0;0;0;1" dur="6s" repeatCount="indefinite" />
+			</ellipse>
+			<ellipse cx="120" cy="80" rx="15" ry="10" fill="none" stroke="url(#glassesGradient)">
+				<animate attributeName="opacity" values="1;0;0;0;1" dur="6s" repeatCount="indefinite" />
+			</ellipse>
+			<path stroke="url(#glassesGradient)" stroke-width="1" d="M 94 78 L 106 78 M 89 72 L 111 72">
+				<animate attributeName="opacity" values="1;0;0;0;1" dur="6s" repeatCount="indefinite" />
+			</path>
+		<!--Mouth-->
+			<path d="M 80 130 Q 100 157 120 130" fill="url(#mouthGradient)" />
+		<!--Ears-->
+			<rect x="10" y="78" width="22" height="32" rx="6" ry="10" fill="url(#skinGradient)" />
+			<rect x="166" y="78" width="22" height="32" rx="6" ry="10" fill="url(#skinGradient)" />
+		<!--Hair-->
+			<path d="M100,20
+				C100,10 40,5 12,62
+				C12,58 100,62 100,30
+				M100,20
+				C100,10 150,5 188,62
+				C188,58 100,62 100,30" 
+				stroke="none" fill="url(#hairGradient)" opacity="1" />
+		<!--Shirt-->
+			<rect x="60" y="155" width="80" height="60" rx="20" ry="15" fill="url(#shirtGradient_1)"/>
+			<text x="60.5" y="180" font-size="15" fill="black" font-weight="bold">I love XML!
+				<animateMotion path="M 0 0 L 60 0 L -60 0 L 0 0" dur="7.5s" repeatCount="indefinite" />
+			</text>
+		
+</svg>
+
+
+
+

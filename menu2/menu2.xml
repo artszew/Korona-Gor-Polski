@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet type="text/css" href="../menu3/style.css"?> 
+
+<Crown_of_Polish_Mountains>
+	<about_crown>The concept of the Crown of Polish Mountains was presented in 1997 by Marek Więckowski and Wojciech Lewandowski in the June issue of the magazine "Get to know our country". Initially, the list of peaks contained 27 peaks. When announcing the idea of ​​the KGP, it was not only about relieving the most popular mountains, especially the Tatras, and popularizing many other attractive but unknown ranges, but also about in-depth knowledge of these regions of the country, with their history, nature, geological past and contemporary culture.</about_crown>
+	
+	<!-- 28 peaks, which are in a crown of Polish Mountains-->
+	<peaks>
+		<peak peak_id="P1">
+			<name>Rysy</name>
+			<height unit="meters">2499 m.a.s.l.</height>
+			<first_ascent>30.07.1840</first_ascent>
+			<range>Tatry</range>
+			<country c_id="AAA">Poland
+				<voivodeship v_id="V100">Lesser Poland</voivodeship>
+				<national_park np_id="I">Tatrzanski NP</national_park>
+			</country>
+			<country c_id="BBB">Slovakia</country>
+			<comments>
+				<comment>Mount Rysy consists of three peaks and the highest of them is located entirely on the Slovak side (2501 m.a.s.l.) - that is why it is not included in the Crown of Polish Mountains.</comment>
+				<comment>This is the only mountain from this ranking for which we know the exact date of the first ascent.</comment>
+				<comment>Most of the mountain ranges included in the Crown are mesoregions. Meanwhile, Rysy is included as the highest peak of the Tatra Chain macroregion (and at the same time of the Eastern Tatras mesoregion), excluding the Western Tatras, the highest peak of which in Poland is Starorobociański Wierch.</comment>
+			</comments>
+		</peak>
+		
+		<peak peak_id="P2">
+			<name>Babia Gora</name>
+			<height unit="meters">1725 m.a.s.l.</height>
+			<first_ascent>No information about the first conqueror. The peak has been climbed since prehistoric times.</first_ascent>
+			<range>Beskid Zywiecki</range>
+			<country c_id="AAA">Poland
+				<voivodeship v_id="V100">Lesser Poland</voivodeship>
+				<national_park np_id="II">Babiogorski NP</national_park>
+			</country>
+			<country c_id="BBB">Slovakia</country>
+		</peak>
+		
+		<peak peak_id="P3">
+			<name>Sniezka</name>
+			<height unit="meters">1603 m.a.s.l.</height>
+			<first_ascent>No information about the first conqueror. The peak has been climbed since prehistoric times.</first_ascent>
+			<range>Karkonosze</range>
+			<country c_id="AAA">Poland
+				<voivodeship v_id="V200">Lower Silesia</voivodeship>
+				<national_park np_id="III">Karkonoski NP</national_park>
+			</country>
+			<country c_id="CCC">Czech Republic</country>
+		</peak>
+		
+		<peak peak_id="P4">
+			<name>Snieznik</name>
+			<height unit="meters">1423 m.a.s.l.</height>
+			<first_ascent>No information about the first conqueror. The peak has been climbed since prehistoric times.</first_ascent>
+			<range>Mount Snieznik</range>
+			<country c_id="AAA">Poland
+				<voivodeship v_id="V200">Lower Silesia</voivodeship>
+			</country>
+			<country c_id="CCC">Czech Republic</country>
+		</peak>
+		
+		<peak peak_id="P5">
+			<name>Tarnica</name>
+			<height unit="meters">1346 m.a.s.l.</height>
+			<first_ascent>No information about the first conqueror. The peak has been climbed since prehistoric times.</first_ascent>
+			<range>Bieszczady Zachodnie</range>
+			<country c_id="AAA">Poland
+				<voivodeship v_id="V300">Subcarpathian</voivodeship>
+				<national_park np_id="IV">Bieszczadzki NP</national_park>
+			</country>
+			<comments>
+				<comment>The authors of the crown in the Beskid Lesisty macroregion included only the Bieszczady mesoregion (with Tarnica), omitting its other part, the Sanocko-Turczańskie Mountains, in which the highest are Trohaniec or Jaworniki.</comment>
+			</comments>
+		</peak>
+		
+		<peak peak_id="P6">
+			<name>Turbacz</name>
+			<height unit="meters">1310 m.a.s.l.</height>
+			<first_ascent>No information about the first conqueror. The peak has been climbed since prehistoric times.</first_ascent>
+			<range>Gorce</range>
+			<country c_id="AAA">Poland
+				<voivodeship v_id="V100">Lesser Poland</voivodeship>
+				<national_park np_id="V">Gorczanski NP</national_park>
+			</country>
+		</peak>
+		
+		<peak peak_id="P7">
+			<name>Radziejowa</name>
+			<height unit="meters">1266 m.a.s.l.</height>
+			<first_ascent>No information about the first conqueror. The peak has been climbed since prehistoric times.</first_ascent>
+			<range>Beskid Sadecki</range>
+			<country c_id="AAA">Poland
+				<voivodeship v_id="V100">Lesser Poland</voivodeship>
+			</country>
+		</peak>
+		<peak peak_id="P8">
+			<name>Skrzyczne</name>
+			<height unit="meters">1257 m.a.s.l.</height>
+			<first_ascent>No information about the first conqueror. The peak has been climbed since prehistoric times.</first_ascent>
+			<range>Beskid Slaski</range>
+			<country c_id="AAA">Poland
+				<voivodeship v_id="V400">Silesian</voivodeship>
+			</country>
+		</peak>
+		
+		<peak peak_id="P9">
+			<name>Mogielica</name>
+			<height unit="meters">1171 m.a.s.l.</height>
+			<first_ascent>No information about the first conqueror. The peak has been climbed since prehistoric times.</first_ascent>
+			<range>Beskid Wyspowy</range>
+			<country c_id="AAA">Poland
+				<voivodeship v_id="V100">Lesser Poland</voivodeship>
+			</country>
+		</peak>
+		
+		<peak peak_id="P10">
+			<name>Wysoka Kopa</name>
+			<height unit="meters">1126 m.a.s.l.</height>
+			<first_ascent>No information about the first conqueror. The peak has been climbed since prehistoric times.</first_ascent>
+			<range>Izerskie Mountains</range>
+			<country c_id="AAA">Poland
+				<voivodeship v_id="V200">Lower Silesia</voivodeship>
+			</country>
+		</peak>
+		
+		<peak peak_id="P11">
+			<name>Rudawiec</name>
+			<height unit="meters">1106 m.a.s.l.</height>
+			<first_ascent>No information about the first conqueror. The peak has been climbed since prehistoric times.</first_ascent>
+			<range>Bialskie Mountains</range>
+			<country c_id="AAA">Poland
+				<voivodeship v_id="V200">Lower Silesia</voivodeship>
+			</country>
+			<country c_id="CCC">Czech Republic</country>
+			<comments>
+				<comment>The Bialskie Mountains are the biggest controversy of the Crown because they are actually part of the Golden Mountains, so the Bialskie Mountains should not be included in the Crown at all</comment>
+			</comments>
+		</peak>
+		
+		<peak peak_id="P12">
+			<name>Orlica</name>
+			<height unit="meters">1084 m.a.s.l.</height>
+			<first_ascent>No information about the first conqueror. The peak has been climbed since prehistoric times.</first_ascent>
+			<range>Orlickie Mountains</range>
+			<country c_id="AAA">Poland
+				<voivodeship v_id="V200">Lower Silesia</voivodeship>
+			</country>
+			<country c_id="CCC">Czech Republic</country>
+		</peak>
+		
+		<peak peak_id="P13">
+			<name>Wysoka</name>
+			<height unit="meters">1050 m.a.s.l.</height>
+			<first_ascent>No information about the first conqueror. The peak has been climbed since prehistoric times.</first_ascent>
+			<range>Pieniny</range>
+			<country c_id="AAA">Poland
+				<voivodeship v_id="V100">Lesser Poland</voivodeship>
+				<national_park np_id="VI">Pieninski NP</national_park>
+			</country>
+			<country c_id="BBB">Slovakia</country>
+			<comments>
+				<comment>The Crown includes the Pieniny Mountains (with Wysoka, 1,050 m above sea level) belonging to the Orawa-Podhale Depression, excluding its second mountainous mesoregion, which is higher than the Pieniny Mountains, the Spisko-Gubałowskie Foothills (with Magura Witowska, 1,232 m above sea level).</comment>
+			</comments>
+		</peak>
+		
+		<peak peak_id="P14">
+			<name>Wielka Sowa</name>
+			<height unit="meters">1015 m.a.s.l.</height>
+			<first_ascent>No information about the first conqueror. The peak has been climbed since prehistoric times.</first_ascent>
+			<range>Góry Sowie</range>
+			<country c_id="AAA">Poland
+				<voivodeship v_id="V200">Lower Silesia</voivodeship>
+			</country>
+		</peak>
+		
+		<peak peak_id="P15">
+			<name>Lackowa</name>
+			<height unit="meters">997 m.a.s.l.</height>
+			<first_ascent>No information about the first conqueror. The peak has been climbed since prehistoric times.</first_ascent>
+			<range>Beskid Niski</range>
+			<country c_id="AAA">Poland
+				<voivodeship v_id="V100">Lesser Poland</voivodeship>
+			</country>
+			<country c_id="BBB">Slovakia</country>
+		</peak>
+		
+		<peak peak_id="P16">
+			<name>Kowadlo</name>
+			<height unit="meters">989 m.a.s.l.</height>
+			<first_ascent>No information about the first conqueror. The peak has been climbed since prehistoric times.</first_ascent>
+			<range>Zlote Mountains</range>
+			<country c_id="AAA">Poland
+				<voivodeship v_id="V200">Lower Silesia</voivodeship>
+			</country>
+			<country c_id="CCC">Czech Republic</country>
+			<comments>
+				<comment>The highest peak of the entire Golden Mountains on the Polish side is Brusek or Postawna (different sources give different heights; however, there are no marked tourist trails leading to them), not Kowadło.</comment>
+			</comments>
+		</peak>
+		
+		<peak peak_id="P17">
+			<name>Jagodna</name>
+			<height unit="meters">977 m.a.s.l.</height>
+			<first_ascent>No information about the first conqueror. The peak has been climbed since prehistoric times.</first_ascent>
+			<range>Bystrzyckie Mountains</range>
+			<country c_id="AAA">Poland
+				<voivodeship v_id="V200">Lower Silesia</voivodeship>
+			</country>
+			<comments>
+				<comment>The highest peak of the Bystrzyckie Mountains is not Jagodna (977 m above sea level), but a formally unnamed peak with a height of 985 m above sea level.</comment>
+			</comments>
+		</peak>
+		
+		<peak peak_id="P18">
+			<name>Skalnik</name>
+			<height unit="meters">945 m.a.s.l.</height>
+			<first_ascent>No information about the first conqueror. The peak has been climbed since prehistoric times.</first_ascent>
+			<range>Rudawy Janowickie</range>
+			<country c_id="AAA">Poland
+				<voivodeship v_id="V200">Lower Silesia</voivodeship>
+			</country>
+		</peak>
+		
+		<peak peak_id="P19">
+			<name>Waligora</name>
+			<height unit="meters">936 m.a.s.l.</height>
+			<first_ascent>No information about the first conqueror. The peak has been climbed since prehistoric times.</first_ascent>
+			<range>Kamienne Mountains</range>
+			<country c_id="AAA">Poland
+				<voivodeship v_id="V200">Lower Silesia</voivodeship>
+			</country>
+		</peak>
+		
+		<peak peak_id="P20">
+			<name>Czupel</name>
+			<height unit="meters">933 m.a.s.l.</height>
+			<first_ascent>No information about the first conqueror. The peak has been climbed since prehistoric times.</first_ascent>
+			<range>Beskid Maly</range>
+			<country c_id="AAA">Poland
+				<voivodeship v_id="V400">Silesian</voivodeship>
+			</country>
+		</peak>
+		
+		<peak peak_id="P21">
+			<name>Szczeliniec Wielki</name>
+			<height unit="meters">919 m.a.s.l.</height>
+			<first_ascent>No information about the first conqueror. The peak has been climbed since prehistoric times.</first_ascent>
+			<range>Table Mountains</range>
+			<country c_id="AAA">Poland
+				<voivodeship v_id="V200">Lower Silesia</voivodeship>
+				<national_park np_id="VII">Table's Mountains NP</national_park>
+			</country>
+		</peak>
+		
+		<peak peak_id="P22">
+			<name>Lubomir</name>
+			<height unit="meters">904 m.a.s.l.</height>
+			<first_ascent>No information about the first conqueror. The peak has been climbed since prehistoric times.</first_ascent>
+			<range>Beskid Makowski</range>
+			<country c_id="AAA">Poland
+				<voivodeship v_id="V100">Lesser Poland</voivodeship>
+			</country>
+			<comments>
+				<comment>According to the authors of Crown, the highest peak of Beskid Makowski is Lubomir, while according to the regionalization of another expert, this peak belongs to Beskid Wyspowy, and the highest peak of Beskid Makowski is Mędralowa. It is worth noting, however, that an earlier regionalization by the same author from 1977 assigns Lubomir to the Beskid Makowski Mountains.</comment>
+			</comments>
+		</peak>
+		
+		<peak peak_id="P23">
+			<name>Biskupia Kopa</name>
+			<height unit="meters">889 m.a.s.l.</height>
+			<first_ascent>No information about the first conqueror. The peak has been climbed since prehistoric times.</first_ascent>
+			<range>Opawskie Mountains</range>
+			<country c_id="AAA">Poland
+				<voivodeship v_id="V500">Opolskie</voivodeship>
+			</country>
+		</peak>
+		
+		<peak peak_id="P24">
+			<name>Chelmiec</name>
+			<height unit="meters">850 m.a.s.l.</height>
+			<first_ascent>No information about the first conqueror. The peak has been climbed since prehistoric times.</first_ascent>
+			<range>Walbrzyskie Mountains</range>
+			<country c_id="AAA">Poland
+				<voivodeship v_id="V200">Lower Silesia</voivodeship>
+			</country>
+			<comments>
+				<comment>Chełmiec should not be included in the Crown because its measurement point was located on an 18-meter observation tower and was therefore considered the highest in the Wałbrzyskie Mountains, but in fact the highest is Borowa Mountain.</comment>
+			</comments>
+		</peak>
+		
+		<peak peak_id="P25">
+			<name>Klodzka Gora</name>
+			<height unit="meters">765 m.a.s.l.</height>
+			<first_ascent>No information about the first conqueror. The peak has been climbed since prehistoric times.</first_ascent>
+			<range>Bardzkie Mountains</range>
+			<country c_id="AAA">Poland
+				<voivodeship v_id="V200">Lower Silesia</voivodeship>
+			</country>
+			<comments>
+				<comment>In the crown, Kłodzka Góra is listed as the highest peak of the Bardzkie Mountains, although more recent measurements have shown that Szeroka Góra, located nearby, is higher.</comment>
+			</comments>
+		</peak>
+		
+		<peak peak_id="P26">
+			<name>Skopiec</name>
+			<height unit="meters">724 m.a.s.l.</height>
+			<first_ascent>No information about the first conqueror. The peak has been climbed since prehistoric times.</first_ascent>
+			<range>Kaczawskie Mountains</range>
+			<country c_id="AAA">Poland
+				<voivodeship v_id="V200">Lower Silesia</voivodeship>
+			</country>
+			<comments>
+				<comment>According to the latest measurements, the highest peak of the Kaczawskie Mountains is Okole (725.3 m above sea level), previously considered higher, Skopiec is only 720.7 m above sea level.</comment>
+			</comments>
+		</peak>
+		
+		<peak peak_id="P27">
+			<name>Sleza</name>
+			<height unit="meters">718 m.a.s.l.</height>
+			<first_ascent>No information about the first conqueror. The peak has been climbed since prehistoric times.</first_ascent>
+			<range>Mount Sleza</range>
+			<country c_id="AAA">Poland
+				<voivodeship v_id="V200">Lower Silesia</voivodeship>
+			</country>
+		</peak>
+		
+		<peak peak_id="P28">
+			<name>Lysica</name>
+			<height unit="meters">614 m.a.s.l.</height>
+			<first_ascent>No information about the first conqueror. The peak has been climbed since prehistoric times.</first_ascent>
+			<range>Swietokrzyskie Mountains</range>
+			<country c_id="AAA">Poland
+				<voivodeship v_id="V600">Swietokrzyskie</voivodeship>
+				<national_park np_id="VIII">Swietokrzyski NP</national_park>
+			</country>
+			<comments>
+				<comment>Only Łysica was included in the Świętokrzyskie Mountains, despite the fact that they are divided into two main ranges.</comment>
+				<comment>In 2019, it was confirmed that the highest peak of the Świętokrzyskie Mountains is the eastern peak of Łysica called Agata. The latest measurements showed 613.96 m above sea level. which gives it an advantage over the latest measurements of Łysica (613.33 m above sea level).</comment>
+			</comments>
+		</peak>
+	</peaks>
+	
+	<!-- Countries, where are above peaks -->
+	<countries>
+		<country country_id="AAA">
+			<name>Poland</name>
+			<c_surface>312 696 km2</c_surface>
+			<c_capital>Warsaw</c_capital>
+			<currency>PLN</currency>
+		</country>
+		
+		<country country_id="BBB">
+			<name>Slovakia</name>
+			<c_surface>49 035 km2</c_surface>
+			<c_capital>Bratislava</c_capital>
+			<currency>CZK</currency>
+		</country>
+		
+		<country country_id="CCC">
+			<name>Czech Republic</name>
+			<c_surface>78 867 km2</c_surface>
+			<c_capital>Prague</c_capital>
+			<currency>EUR</currency>
+		</country>
+		
+		<list_of_currents>PLN CZK EUR</list_of_currents>
+		
+	</countries>
+	
+	<!-- voivodeships of Poland, where are above peaks -->
+	<voivodeships>
+		<voivodeship voivodeship_id="V100">
+			<name>Lesser Poland</name>
+			<v_surface>15 182 km2</v_surface>
+			<v_capital>Cracow</v_capital>
+		</voivodeship>
+		
+		<voivodeship voivodeship_id="V200">
+			<name>Lower Silesia</name>
+			<v_surface>19 946 km2</v_surface>
+			<v_capital>Wroclaw</v_capital>
+		</voivodeship>
+		
+		<voivodeship voivodeship_id="V300">
+			<name>Subcarpathian</name>	
+			<v_surface>17 884 km2</v_surface>
+			<v_capital>Rzeszow</v_capital>
+		</voivodeship>
+		
+		<voivodeship voivodeship_id="V400">
+			<name>Silesian</name>
+			<v_surface>12 300 km2</v_surface>
+			<v_capital>Katowice</v_capital>			
+		</voivodeship>
+		
+		<voivodeship voivodeship_id="V500">
+			<name>Opolskie</name>
+			<v_surface>9 413 km2</v_surface>
+			<v_capital>Opole</v_capital>
+		</voivodeship>
+		
+		<voivodeship voivodeship_id="V600">
+			<name>Swietokrzyskie</name>
+			<v_surface>11 672 km2</v_surface>
+			<v_capital>Kielce</v_capital>
+		</voivodeship>		
+	</voivodeships>
+	
+	<!--Polish national parks, in which are peaks included in Crown of Polish mountains-->
+	<national_parks>
+		<national_park national_park_id="I">
+			<name>Tatrzanski NP</name>
+			<voivodeship voiv_id="V100">Malopolskie</voivodeship>
+			<year_of_formed>1955</year_of_formed>
+			<np_surface>211.97 km2</np_surface>
+		</national_park>
+		
+		<national_park national_park_id="II">
+			<name>Babiogorski NP</name>
+			<voivodeship voiv_id="V100">Malopolskie</voivodeship>
+			<year_of_formed>1954</year_of_formed>
+			<np_surface>33.93 km2</np_surface>
+		</national_park>
+		
+		<national_park national_park_id="III">
+			<name>Karkonoski NP</name>
+			<voivodeship voiv_id="V200">Lower Silesia</voivodeship>
+			<year_of_formed>1959</year_of_formed>
+			<np_surface>33.93 km2</np_surface>
+		</national_park>
+		
+		<national_park national_park_id="IV">
+			<name>Bieszczadzki NP</name>
+			<voivodeship voiv_id="V300">Subcarpathian</voivodeship>
+			<year_of_formed>1993</year_of_formed>
+			<np_surface>292.02 km2</np_surface>
+		</national_park>
+		
+		<national_park national_park_id="V">
+			<name>Gorczanski NP</name>
+			<voivodeship voiv_id="V100">Malopolskie</voivodeship>
+			<year_of_formed>1981</year_of_formed>
+			<np_surface>70.30 km2</np_surface>
+		</national_park>
+		
+		<national_park national_park_id="VI">
+			<name>Pieninski NP</name>
+			<voivodeship voiv_id="V100">Malopolskie</voivodeship>
+			<year_of_formed>1932</year_of_formed>
+			<np_surface>23.46 km2</np_surface>
+		</national_park>
+		
+		<national_park national_park_id="VII">
+			<name>Table's Mountains NP</name>
+			<voivodeship voiv_id="V200">Lower Silesia</voivodeship>
+			<year_of_formed>1993</year_of_formed>
+			<np_surface>63.40 km2</np_surface>
+		</national_park>
+		
+		<national_park national_park_id="VIII">
+			<name>Swietokrzyski NP</name>
+			<voivodeship voiv_id="V600">Swietokrzyskie</voivodeship>
+			<year_of_formed>1950</year_of_formed>
+			<np_surface>76.26 km2</np_surface>
+		</national_park>
+	</national_parks>
+	
+	<!--author of document-->
+	<author>
+		<name>Artur Szewczykowski</name>
+		<university>Lodz University of Technology</university>
+		<a_id>252546</a_id>
+	</author>
+</Crown_of_Polish_Mountains>

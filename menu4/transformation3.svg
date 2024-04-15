@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="3300" height="1800">
+
+<line x1="0" y1="1200" x2="3270" y2="1200" stroke="black" stroke-width="2"/>
+<line x1="80" y1="200.4" x2="80" y2="1200" stroke="black" stroke-width="2"/>
+<text x="295" y="1270" font-size="72" text-anchor="middle" transform="rotate(-90, 25, 1240)">height [meters]</text>
+
+<rect x="114.28571428571429" y="200.39999999999998" width="70" height="999.6" fill="#cc6600"/><text x="204.28571428571428" y="1350" font-size="72" text-anchor="end" transform="rotate(-90, 114.28571428571429, 1300)"><tspan style="text-decoration: underline; fill: #004d1a;">Rysy</tspan></text>
+<text x="164.28571428571428" y="205.39999999999998" font-size="72" text-anchor="start" transform="rotate(-90, 159.28571428571428, 190.39999999999998)">2499</text>
+
+<rect x="228.57142857142858" y="510" width="70" height="690" fill="#cc6600"/><text x="318.57142857142856" y="1350" font-size="72" text-anchor="end" transform="rotate(-90, 228.57142857142858, 1300)"><tspan style="text-decoration: underline; fill: #004d1a;">Babia Gora</tspan></text>
+<text x="278.57142857142856" y="515" font-size="72" text-anchor="start" transform="rotate(-90, 273.57142857142856, 500)">1725</text>
+
+<rect x="342.8571428571429" y="558.8" width="70" height="641.2" fill="#663300"/><text x="432.8571428571429" y="1350" font-size="72" text-anchor="end" transform="rotate(-90, 342.8571428571429, 1300)"><tspan style="text-decoration: underline; fill: #004d1a;">Sniezka</tspan></text>
+<text x="392.8571428571429" y="563.8" font-size="72" text-anchor="start" transform="rotate(-90, 387.8571428571429, 548.8)">1603</text>
+
+<rect x="457.14285714285717" y="630.8" width="70" height="569.2" fill="#663300"/><text x="547.1428571428571" y="1350" font-size="72" text-anchor="end" transform="rotate(-90, 457.14285714285717, 1300)">Snieznik</text>
+<text x="507.14285714285717" y="635.8" font-size="72" text-anchor="start" transform="rotate(-90, 502.14285714285717, 620.8)">1423</text>
+
+<rect x="571.4285714285714" y="661.6" width="70" height="538.4" fill="#ffa94d"/><text x="661.4285714285714" y="1350" font-size="72" text-anchor="end" transform="rotate(-90, 571.4285714285714, 1300)"><tspan style="text-decoration: underline; fill: #004d1a;">Tarnica</tspan></text>
+<text x="621.4285714285714" y="666.6" font-size="72" text-anchor="start" transform="rotate(-90, 616.4285714285714, 651.6)">1346</text>
+
+<rect x="685.7142857142858" y="676" width="70" height="524" fill="#ffa94d"/><text x="775.7142857142858" y="1350" font-size="72" text-anchor="end" transform="rotate(-90, 685.7142857142858, 1300)"><tspan style="text-decoration: underline; fill: #004d1a;">Turbacz</tspan></text>
+<text x="735.7142857142858" y="681" font-size="72" text-anchor="start" transform="rotate(-90, 730.7142857142858, 666)">1310</text>
+
+<rect x="800" y="693.5999999999999" width="70" height="506.40000000000003" fill="#ffa94d"/><text x="890" y="1350" font-size="72" text-anchor="end" transform="rotate(-90, 800, 1300)">Radziejowa</text>
+<text x="850" y="698.5999999999999" font-size="72" text-anchor="start" transform="rotate(-90, 845, 683.5999999999999)">1266</text>
+
+<rect x="914.2857142857143" y="697.2" width="70" height="502.8" fill="#ffa94d"/><text x="1004.2857142857143" y="1350" font-size="72" text-anchor="end" transform="rotate(-90, 914.2857142857143, 1300)">Skrzyczne</text>
+<text x="964.2857142857143" y="702.2" font-size="72" text-anchor="start" transform="rotate(-90, 959.2857142857143, 687.2)">1257</text>
+
+<rect x="1028.5714285714287" y="731.5999999999999" width="70" height="468.40000000000003" fill="#ffa94d"/><text x="1118.5714285714287" y="1350" font-size="72" text-anchor="end" transform="rotate(-90, 1028.5714285714287, 1300)">Mogielica</text>
+<text x="1078.5714285714287" y="736.5999999999999" font-size="72" text-anchor="start" transform="rotate(-90, 1073.5714285714287, 721.5999999999999)">1171</text>
+
+<rect x="1142.857142857143" y="749.5999999999999" width="70" height="450.40000000000003" fill="#ffa94d"/><text x="1232.857142857143" y="1350" font-size="72" text-anchor="end" transform="rotate(-90, 1142.857142857143, 1300)">Wysoka Kopa</text>
+<text x="1192.857142857143" y="754.5999999999999" font-size="72" text-anchor="start" transform="rotate(-90, 1187.857142857143, 739.5999999999999)">1126</text>
+
+<rect x="1257.142857142857" y="757.5999999999999" width="70" height="442.40000000000003" fill="#663300"/><text x="1347.142857142857" y="1350" font-size="72" text-anchor="end" transform="rotate(-90, 1257.142857142857, 1300)">Rudawiec</text>
+<text x="1307.142857142857" y="762.5999999999999" font-size="72" text-anchor="start" transform="rotate(-90, 1302.142857142857, 747.5999999999999)">1106</text>
+
+<rect x="1371.4285714285716" y="766.4" width="70" height="433.6" fill="#663300"/><text x="1461.4285714285716" y="1350" font-size="72" text-anchor="end" transform="rotate(-90, 1371.4285714285716, 1300)">Orlica</text>
+<text x="1421.4285714285716" y="771.4" font-size="72" text-anchor="start" transform="rotate(-90, 1416.4285714285716, 756.4)">1084</text>
+
+<rect x="1485.7142857142858" y="780" width="70" height="420" fill="#cc6600"/><text x="1575.7142857142858" y="1350" font-size="72" text-anchor="end" transform="rotate(-90, 1485.7142857142858, 1300)"><tspan style="text-decoration: underline; fill: #004d1a;">Wysoka</tspan></text>
+<text x="1535.7142857142858" y="785" font-size="72" text-anchor="start" transform="rotate(-90, 1530.7142857142858, 770)">1050</text>
+
+<rect x="1600" y="794" width="70" height="406" fill="#ffa94d"/><text x="1690" y="1350" font-size="72" text-anchor="end" transform="rotate(-90, 1600, 1300)">Wielka Sowa</text>
+<text x="1650" y="799" font-size="72" text-anchor="start" transform="rotate(-90, 1645, 784)">1015</text>
+
+<rect x="1714.2857142857144" y="801.2" width="70" height="398.8" fill="#cc6600"/><text x="1804.2857142857144" y="1350" font-size="72" text-anchor="end" transform="rotate(-90, 1714.2857142857144, 1300)">Lackowa</text>
+<text x="1764.2857142857144" y="806.2" font-size="72" text-anchor="start" transform="rotate(-90, 1759.2857142857144, 791.2)">997</text>
+
+<rect x="1828.5714285714287" y="804.4" width="70" height="395.6" fill="#663300"/><text x="1918.5714285714287" y="1350" font-size="72" text-anchor="end" transform="rotate(-90, 1828.5714285714287, 1300)">Kowadlo</text>
+<text x="1878.5714285714287" y="809.4" font-size="72" text-anchor="start" transform="rotate(-90, 1873.5714285714287, 794.4)">989</text>
+
+<rect x="1942.857142857143" y="809.2" width="70" height="390.8" fill="#ffa94d"/><text x="2032.857142857143" y="1350" font-size="72" text-anchor="end" transform="rotate(-90, 1942.857142857143, 1300)">Jagodna</text>
+<text x="1992.857142857143" y="814.2" font-size="72" text-anchor="start" transform="rotate(-90, 1987.857142857143, 799.2)">977</text>
+
+<rect x="2057.1428571428573" y="822" width="70" height="378" fill="#ffa94d"/><text x="2147.1428571428573" y="1350" font-size="72" text-anchor="end" transform="rotate(-90, 2057.1428571428573, 1300)">Skalnik</text>
+<text x="2107.1428571428573" y="827" font-size="72" text-anchor="start" transform="rotate(-90, 2102.1428571428573, 812)">945</text>
+
+<rect x="2171.4285714285716" y="825.5999999999999" width="70" height="374.40000000000003" fill="#ffa94d"/><text x="2261.4285714285716" y="1350" font-size="72" text-anchor="end" transform="rotate(-90, 2171.4285714285716, 1300)">Waligora</text>
+<text x="2221.4285714285716" y="830.5999999999999" font-size="72" text-anchor="start" transform="rotate(-90, 2216.4285714285716, 815.5999999999999)">936</text>
+
+<rect x="2285.714285714286" y="826.8" width="70" height="373.20000000000005" fill="#ffa94d"/><text x="2375.714285714286" y="1350" font-size="72" text-anchor="end" transform="rotate(-90, 2285.714285714286, 1300)">Czupel</text>
+<text x="2335.714285714286" y="831.8" font-size="72" text-anchor="start" transform="rotate(-90, 2330.714285714286, 816.8)">933</text>
+
+<rect x="2400" y="832.4" width="70" height="367.6" fill="#ffa94d"/><text x="2490" y="1350" font-size="72" text-anchor="end" transform="rotate(-90, 2400, 1300)"><tspan style="text-decoration: underline; fill: #004d1a;">Szczeliniec Wielki</tspan></text>
+<text x="2450" y="837.4" font-size="72" text-anchor="start" transform="rotate(-90, 2445, 822.4)">919</text>
+
+<rect x="2514.285714285714" y="838.4" width="70" height="361.6" fill="#ffa94d"/><text x="2604.285714285714" y="1350" font-size="72" text-anchor="end" transform="rotate(-90, 2514.285714285714, 1300)">Lubomir</text>
+<text x="2564.285714285714" y="843.4" font-size="72" text-anchor="start" transform="rotate(-90, 2559.285714285714, 828.4)">904</text>
+
+<rect x="2628.571428571429" y="844.4" width="70" height="355.6" fill="#ffa94d"/><text x="2718.571428571429" y="1350" font-size="72" text-anchor="end" transform="rotate(-90, 2628.571428571429, 1300)">Biskupia Kopa</text>
+<text x="2678.571428571429" y="849.4" font-size="72" text-anchor="start" transform="rotate(-90, 2673.571428571429, 834.4)">889</text>
+
+<rect x="2742.857142857143" y="860" width="70" height="340" fill="#ffa94d"/><text x="2832.857142857143" y="1350" font-size="72" text-anchor="end" transform="rotate(-90, 2742.857142857143, 1300)">Chelmiec</text>
+<text x="2792.857142857143" y="865" font-size="72" text-anchor="start" transform="rotate(-90, 2787.857142857143, 850)">850</text>
+
+<rect x="2857.1428571428573" y="894" width="70" height="306" fill="#ffa94d"/><text x="2947.1428571428573" y="1350" font-size="72" text-anchor="end" transform="rotate(-90, 2857.1428571428573, 1300)">Klodzka Gora</text>
+<text x="2907.1428571428573" y="899" font-size="72" text-anchor="start" transform="rotate(-90, 2902.1428571428573, 884)">765</text>
+
+<rect x="2971.4285714285716" y="910.4" width="70" height="289.6" fill="#ffa94d"/><text x="3061.4285714285716" y="1350" font-size="72" text-anchor="end" transform="rotate(-90, 2971.4285714285716, 1300)">Skopiec</text>
+<text x="3021.4285714285716" y="915.4" font-size="72" text-anchor="start" transform="rotate(-90, 3016.4285714285716, 900.4)">724</text>
+
+<rect x="3085.714285714286" y="912.8" width="70" height="287.2" fill="#ffa94d"/><text x="3175.714285714286" y="1350" font-size="72" text-anchor="end" transform="rotate(-90, 3085.714285714286, 1300)">Sleza</text>
+<text x="3135.714285714286" y="917.8" font-size="72" text-anchor="start" transform="rotate(-90, 3130.714285714286, 902.8)">718</text>
+
+<rect x="3200" y="954.4" width="70" height="245.60000000000002" fill="#ffa94d"/><text x="3290" y="1350" font-size="72" text-anchor="end" transform="rotate(-90, 3200, 1300)"><tspan style="text-decoration: underline; fill: #004d1a;">Lysica</tspan></text>
+<text x="3250" y="959.4" font-size="72" text-anchor="start" transform="rotate(-90, 3245, 944.4)">614</text>
+<rect x="2450" y="100" width="80" height="80" fill="#ffa94d"/><text x="2550" y="150" font-size="46" text-anchor="start">Poland - not border peak</text><rect x="2450" y="200" width="80" height="80" fill="#cc6600"/><text x="2550" y="250" font-size="46" text-anchor="start">Poland &amp; Slovakia border peak</text><rect x="2450" y="300" width="80" height="80" fill="#663300"/><text x="2550" y="350" font-size="46" text-anchor="start">Poland &amp; Czech Republic border peak</text><text x="2440" y="450" font-size="46" text-anchor="start"><tspan style="text-decoration: underline; fill:#004d1a;">Rysy</tspan>  Peak is in national park</text>
+</svg>

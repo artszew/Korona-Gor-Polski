@@ -1,0 +1,422 @@
+/* Stylowanie korzenia dokumentu XML */
+Crown_of_Polish_Mountains {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 100%;
+    margin: 30px 10px;
+	position: relative;}
+
+/* Pseudoelement before dla elementu Crown_of_Polish_Mountains */
+	Crown_of_Polish_Mountains::before {
+    content: "<Crown_of_Polish_Mountains>";
+    display: block;
+    background-color: #333;
+    color: #ffffff;
+	font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;}
+
+/* Stylowanie elementu about_crown */
+about_crown {
+    display:block;
+	margin-top: 30px;
+	padding: 5px 15px;
+	font-weight: bold;
+    color: black;}
+
+	about_crown::before {
+    content: "<about_crown>";
+	display: inline;
+    color: #555;}
+	
+	about_crown::after {
+    content: "</about_crown>";
+	display: inline;
+    color: #555;}
+
+/* Stylowanie głównych sekcji */
+	peaks, countries, voivodeships, national_parks, author{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 0;
+    border: 4px solid #333;
+    padding: 30px 15px 30px 15px;
+    border-radius: 8px;
+    position: relative;}
+	
+	list_of_currents {
+	background-color: #bccad6;}
+	
+	author {
+	background-color: #cfe0e8;}
+
+/* Stylowanie głównych elementów */
+peak, country, voivodeships voivodeship, national_park, list_of_currents{
+    display: block;
+    margin-top: 15px;
+    border: 1px solid #404040;
+    padding: 10px;
+    border-radius: 5px;}
+
+/* Stylowanie nazw każdej sekcji */
+	peak name, country name, voivodeship name, national_park name {
+    display: block;
+	font-weight: bold;
+    font-size: 20px;
+    color: black;}
+
+/* Stylowanie zwykłych elementów */
+	height, first_ascent, range, comment, c_surface, c_capital, currency, v_surface, v_capital, national_parks national_park voivodeship, national_park np_surface, national_park year_of_formed{
+    display: block;
+    margin: 5px;
+    color: black;}		
+
+/* Stylowanie naprzemiennego kolorowania dla elementów głównych elementów */
+	peaks peak:nth-child(odd),countries country:nth-child(odd), voivodeships voivodeship:nth-child(odd), national_parks national_park:nth-child(odd) {
+    background-color: #cfe0e8; /* Kolor tła dla nieparzystych elementów */}
+
+	peaks peak:nth-child(even), countries country:nth-child(even), voivodeships voivodeship:nth-child(even), national_parks national_park:nth-child(even) {
+    background-color: #bccad6; /* Kolor tła dla parzystych elementów */}
+
+/* Efekt podświetlenia po najechaniu */
+	peaks peak:hover,countries country:hover,  voivodeships voivodeship:hover, national_parks national_park:hover, list_of_currents:hover, author:hover {
+    background-color: #f1e3dd; }
+
+/* Stylowanie elementów w sekcji author */
+	author name, author university, author a_id {
+    display: block;
+    margin: 5px 0px;}
+
+peaks::before {
+    content: "<peaks>";
+    display: block;
+    background-color: #333;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 4px;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    right: 0;}
+	
+	peaks peak height::before {
+    content: "<height>";
+	display: inline;
+    color: #555;}
+	
+	peaks peak height::after {
+    content: "</height>";
+	display: inline;
+    color: #555;}
+	
+	peaks peak first_ascent::before {
+    content: "<first_ascent>";
+	display: inline;
+    color: #555;}
+	
+	peaks peak first_ascent::after {
+    content: "</first_ascent>";
+	display: inline;
+    color: #555;}	
+
+	peaks peak range::before {
+    content: "<range>";
+	display: inline;
+    color: #555;}
+	
+	peaks peak range::after {
+    content: "</range>";
+	display: inline;
+    color: #555;}
+
+	peaks peak country::before {
+    content: "<country>";
+	display: block;
+    color: #555;}
+	
+	/* Stylowanie elementów wewnątrz country w peak*/
+	peaks peak country voivodeship, country national_park {
+	display: block;
+    margin: 5px 0;
+    color: black;
+	border: 1px solid #404040; /* Dodanie delikatnego obramowania */
+    padding: 10px;
+    border-radius: 5px; /* Zaokrąglone narożniki */}
+	
+	peaks peak country::after {
+    content: "</country>";
+	display: block;
+    color: #555;}
+	
+	peaks peak voivodeship::before {
+    content: "<voivodeship>";
+	display: inline;
+    color: #555;}
+	
+	peaks peak voivodeship::after {
+    content: "</voivodeship>";
+	display: inline;
+    color: #555;}
+
+	peaks peak national_park::before {
+    content: "<national_park>";
+	display: inline;
+    color: #555;}
+	
+	peaks peak national_park::after {
+    content: "</national_park>";
+	display: inline;
+    color: #555;}
+
+	peaks peak comment::before {
+    content: "<comment>";
+	display: inline;
+    color: #555;}
+	
+	peaks peak comment::after {
+    content: "</comment>";
+	display: inline;
+    color: #555;}
+
+	peaks peak comments::before {
+    content: "<comments>";
+	display: block;
+	margin-top: 10px;
+    color: #555;}
+	
+	peaks peak comments::after {
+    content: "</comments>";
+	display: inline;
+    color: #555;}
+
+list_of_currents::before {
+    content: "<list_of_currents>";
+    display: block;
+    color: black;}
+	
+	list_of_currents::after {
+    content: "</list_of_currents>";
+    display: block;
+    color: black;}	
+	
+peaks peak name::before,countries country name::before,voivodeships voivodeship name::before,national_parks national_park name::before {
+    content: "<name>";
+	display: inline;
+    color: #555;}
+	
+	peaks peak name:after,countries country name::after,voivodeships voivodeship name::after,national_parks national_park name::after {
+    content: "</name>";
+	display: inline;
+    color: #555;}
+	
+countries::before {
+    content: "<countries>";
+    display: block;
+    background-color: #333;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 4px;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    right: 0;}	
+	
+	country[c_id="AAA"], countries country[country_id="AAA"] name,countries country[country_id="AAA"] c_surface,countries country[country_id="AAA"] c_capital,countries country[country_id="AAA"] currency {color:red;} 
+	country[c_id="BBB"], countries country[country_id="BBB"] name,countries country[country_id="BBB"] c_surface,countries country[country_id="BBB"] c_capital,countries country[country_id="BBB"] currency{color:#00a3cc;}
+	country[c_id="CCC"], countries country[country_id="CCC"] name,countries country[country_id="CCC"] c_surface,countries country[country_id="CCC"] c_capital,countries country[country_id="CCC"] currency{color:#000066;}
+
+	country c_surface::before	{
+    content: "<c_surface>";
+	display: inline;
+    color: #555;}
+	
+	countries country c_surface::after	{
+    content: "</c_surface>";
+	display: inline;
+    color: #555;}
+	
+	countries country c_capital::before	{
+    content: "<c_capital>";
+	display: inline;
+    color: #555;}
+	
+	countries country c_capital::after	{
+    content: "</c_capital>";
+	display: inline;
+    color: #555;}
+
+	countries country currency::before	{
+    content: "<currency>";
+	display: inline;
+    color: #555;}
+	
+	countries country currency::after	{
+    content: "</currency>";
+	display: inline;
+    color: #555;}	
+	
+voivodeships::before {
+    content: "<voivodeships>";
+    display: block;
+    background-color: #333;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 4px;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    right: 0;}
+	
+	voivodeship[v_id="V100"],voivodeship[voivodeship_id="V100"] name,voivodeship[voivodeship_id="V100"] v_surface,voivodeship[voivodeship_id="V100"] v_capital {color:#e60000;} 
+	voivodeship[v_id="V200"],voivodeship[voivodeship_id="V200"] name,voivodeship[voivodeship_id="V200"] v_surface,voivodeship[voivodeship_id="V200"] v_capital {color:#ff8000;}
+	voivodeship[v_id="V300"],voivodeship[voivodeship_id="V300"] name,voivodeship[voivodeship_id="V300"] v_surface,voivodeship[voivodeship_id="V300"] v_capital {color:#996633;}
+	voivodeship[v_id="V400"],voivodeship[voivodeship_id="V400"] name,voivodeship[voivodeship_id="V400"] v_surface,voivodeship[voivodeship_id="V400"] v_capital {color:#009900;} 
+	voivodeship[v_id="V500"],voivodeship[voivodeship_id="V500"] name,voivodeship[voivodeship_id="V500"] v_surface,voivodeship[voivodeship_id="V500"] v_capital {color:#00cccc;}
+	voivodeship[v_id="V600"],voivodeship[voivodeship_id="V600"] name,voivodeship[voivodeship_id="V600"] v_surface,voivodeship[voivodeship_id="V600"] v_capital {color:#9933ff;}
+
+	voivodeships voivodeship::before{
+	content: attr(voivodeship_id);
+	display: inline;
+	font-size: 12px;
+	color: #999999;}
+
+	voivodeship v_surface::before {
+    content: "<v_surface>";
+	display: inline;
+    color: #555;}
+	
+	voivodeship v_surface::after {
+    content: "</v_surface>";
+	display: inline;
+    color: #555;}
+
+	voivodeship v_capital::before {
+    content: "<v_capital>";
+	display: inline;
+    color: #555;}
+	
+	voivodeship v_capital::after {
+    content: "</v_capital>";
+	display: inline;
+    color: #555;}
+
+national_parks::before {
+    content: "<national_parks>";
+    display: block;
+    background-color: #333;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 4px; 
+    position: absolute;
+    top: -1px;
+    left: 0;
+    right: 0;}
+
+	national_parks national_park[national_park_id="I"] name, national_parks national_park[national_park_id="I"] voivodeship, national_parks national_park[national_park_id="I"] year_of_formed, national_parks national_park[national_park_id="I"] np_surface, peaks peak country national_park[np_id="I"]{color:#800000;}
+	national_parks national_park[national_park_id="II"] name, national_parks national_park[national_park_id="II"] voivodeship, national_parks national_park[national_park_id="II"] year_of_formed, national_parks national_park[national_park_id="II"] np_surface, peaks peak country national_park[np_id="II"]{color:#cc5200;}
+	national_parks national_park[national_park_id="III"] name, national_parks national_park[national_park_id="III"] voivodeship, national_parks national_park[national_park_id="III"] year_of_formed, national_parks national_park[national_park_id="III"] np_surface, peaks peak country national_park[np_id="III"]{color:#734d26;}
+	national_parks national_park[national_park_id="IV"] name, national_parks national_park[national_park_id="IV"] voivodeship, national_parks national_park[national_park_id="IV"] year_of_formed, national_parks national_park[national_park_id="IV"] np_surface, peaks peak country national_park[np_id="IV"]{color:#006600;}
+	national_parks national_park[national_park_id="V"] name, national_parks national_park[national_park_id="V"] voivodeship, national_parks national_park[national_park_id="V"] year_of_formed, national_parks national_park[national_park_id="V"] np_surface, peaks peak country national_park[np_id="V"]{color:#1f7a7a;}
+	national_parks national_park[national_park_id="VI"] name, national_parks national_park[national_park_id="VI"] voivodeship, national_parks national_park[national_park_id="VI"] year_of_formed, national_parks national_park[national_park_id="VI"] np_surface, peaks peak country national_park[np_id="VI"]{color:#660066;}
+	national_parks national_park[national_park_id="VII"] name, national_parks national_park[national_park_id="VII"] voivodeship, national_parks national_park[national_park_id="VII"] year_of_formed, national_parks national_park[national_park_id="VII"] np_surface, peaks peak country national_park[np_id="VII"]{color:#b3b300;}
+	national_parks national_park[national_park_id="VIII"] name, national_parks national_park[national_park_id="VIII"] voivodeship, national_parks national_park[national_park_id="VIII"] year_of_formed, national_parks national_park[national_park_id="VIII"] np_surface, peaks peak country national_park[np_id="VIII"]{color:#e600e6;}
+
+	national_parks national_park::before{
+	content: attr(national_park_id);
+	display: inline;
+	font-size: 12px;
+	color: #999999;}
+
+	national_park voivodeship::before {
+    content: "<voivodeship>";
+	display: inline;
+    color: #555;}
+
+	national_park voivodeship::after {
+    content: "</voivodeship>";
+	display: inline;
+    color: #555;}
+
+	national_park year_of_formed::before {
+    content: "<year_of_formed>";
+	display: inline;
+    color: #555;}
+
+	national_park year_of_formed::after {
+    content: "</year_of_formed>";
+	display: inline;
+    color: #555;}
+
+	national_park np_surface::before {
+    content: "<np_surface>";
+	display: inline;
+    color: #555;}
+
+	national_park np_surface::after {
+    content: "</np_surface>";
+	display: inline;
+    color: #555;}
+
+author::before {
+    content: "<author>";
+    display: block;
+    background-color: #333;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 4px;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    right: 0;}
+	
+	author name::before {
+    content: "<name>";
+	display: inline;
+    margin: 5px 0px;}
+	
+	author name::after {
+    content: "</name>";
+	display: inline;
+    margin: 5px 0px;}
+	
+	author university::before {
+    content: "<university>";    
+	display: inline;
+    margin: 5px 0px;}
+
+	author university::after {
+    content: "</university>";    
+	display: inline;
+    margin: 5px 0px;}
+	
+	author a_id::before {
+    content: "<a_id>";
+	display: inline;
+    margin: 5px 0px;}
+
+	author a_id::after {
+    content: "</a_id>";
+	display: inline;
+    margin: 5px 0px;}
+	
+	author::after{
+	content:"This stylization is a one part of the task number three of my XML Project";
+	display: block;}

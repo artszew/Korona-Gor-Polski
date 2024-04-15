@@ -1,0 +1,183 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:complexType name="voivodeshipInPeakType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="v_id" type="xs:IDREF" use="required"/> 
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	
+		<xs:complexType name="nationalParkInPeakType">
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="np_id" type="xs:IDREF" use="required"/> 
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	<!-- union -->
+	<xs:simpleType name="firstAscentType">
+		<xs:union memberTypes="xs:string">
+			<xs:simpleType>
+				<xs:restriction base="xs:date"/>
+			</xs:simpleType>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="No information about the first conqueror. The peak has been climbed since prehistoric times."/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:union>
+	</xs:simpleType>
+	
+	<xs:complexType name="countryType" mixed="true">
+		<xs:sequence>
+			<xs:element name="voivodeship" type="voivodeshipInPeakType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="national_park" type="nationalParkInPeakType" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+		<xs:attribute name="c_id" type="xs:IDREF" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="peakType">
+		<xs:sequence>
+			<xs:element name="name" type="xs:string"/>
+			<xs:element name="height">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="unit" type="xs:string" fixed="meters" use="required"/>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="first_ascent" type="firstAscentType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="range" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="country" type="countryType" minOccurs="1" maxOccurs="3"/>
+			<xs:element name="comments" minOccurs="0" maxOccurs="1">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="comment" type="xs:string" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="peak_id" type="xs:ID" use="required"/>
+	</xs:complexType>
+
+				
+
+	<xs:complexType name="peaksType">
+		<xs:sequence>
+			<xs:element name="peak" type="peakType" minOccurs="28" maxOccurs="28"/>
+		</xs:sequence>
+	</xs:complexType>
+  
+	<xs:simpleType name="currentType">
+		<xs:restriction base="xs:token">
+			<xs:enumeration value="PLN"/>
+			<xs:enumeration value="CZK"/>
+			<xs:enumeration value="EUR"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:complexType name="countryInfoType">
+		<xs:sequence>
+			<xs:element name="name" type="xs:token"/>
+			<xs:element name="c_surface" minOccurs="1" maxOccurs="1">
+			  <xs:simpleType>
+				<xs:restriction base="xs:token">
+					<xs:pattern value="\d+(\s?\d{3})*\s?km2"/>
+				</xs:restriction>
+			  </xs:simpleType>
+			</xs:element>
+			<xs:element name="c_capital" type="xs:token" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="currency" type="currentType" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+		<xs:attribute name="country_id" type="xs:ID" use="required"/>
+	</xs:complexType>
+	<!-- list -->
+	<xs:complexType name="countriesType">
+		<xs:sequence>
+			<xs:element name="country" type="countryInfoType" minOccurs="3" maxOccurs="3"/>
+			<xs:element name="list_of_currents">
+				<xs:simpleType>
+					<xs:list itemType="currentType"/>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:simpleType name="v_surfaceType">
+		<xs:restriction base="xs:token">
+			<xs:pattern value="\d+(\s?\d{3})*\s?km2"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:complexType name="voivodeshipType">
+		<xs:sequence>
+			<xs:element name="name" type="xs:token"/>
+			<xs:element name="v_surface" type="v_surfaceType"/>
+			<xs:element name="v_capital" type="xs:token"/>
+		</xs:sequence>
+		<xs:attribute name="voivodeship_id" type="xs:ID" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="voivodeships_Type">
+		<xs:sequence>
+			<xs:element name="voivodeship" type="voivodeshipType" minOccurs="6" maxOccurs="6"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:simpleType name="np_surfaceType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d+\.\d{2} km2"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:complexType name="voivType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="voiv_id" type="xs:IDREF" use="required"/> 
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	
+	<xs:complexType name="nationalParkType">
+	  <xs:sequence>
+		<xs:element name="name" type="xs:token"/>
+		<xs:element name="voivodeship" type="voivType"/>
+		<xs:element name="year_of_formed" type="xs:gYear" minOccurs="1" maxOccurs="1"/>
+		<xs:element name="np_surface" type="np_surfaceType"/>
+	  </xs:sequence>
+	  <xs:attribute name="national_park_id" type="xs:ID" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="nationalParksType">
+		<xs:sequence>
+			<xs:element name="national_park" type="nationalParkType" minOccurs="8" maxOccurs="8"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	
+	<xs:complexType name="authorType">
+		<xs:sequence>
+			<xs:element name="name" type="xs:token" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="university" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="a_id" type="xs:integer" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="Crown_of_Polish_MountainsType">
+		<xs:sequence>
+			<xs:element name="about_crown" type="xs:string" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="peaks" type="peaksType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="countries" type="countriesType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="voivodeships" type="voivodeships_Type" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="national_parks" type="nationalParksType" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="author" type="authorType" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+  
+  <!-- Root Element Definition -->
+  <xs:element name="Crown_of_Polish_Mountains" type="Crown_of_Polish_MountainsType"/>
+
+</xs:schema>

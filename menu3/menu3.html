@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu 3 - XML Schema and CSS</title>
+    <style>    
+		body {font-family: Arial, sans-serif; background-color: #f4f4f4; margin:0; padding:0;}
+
+        header {background-color: #333; color: #ffffff; text-align: center; padding: 10px;}
+
+		nav {background-color: #333; color: #ffffff; text-align: center; padding: 0px 10px 10px 10px;}
+			
+		nav a {color: #ffffff; text-decoration: none; margin: 0 15px;}
+			
+		.xml-img-container {width: 100%; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border: 5px solid #555}
+		
+		.validation-img {width: 80%; margin-top: 4px; border-radius: 16px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border: 5px solid #555;}
+		
+		.validation-link {color: #333; text-decoration: none;}
+		
+		.validation-link:hover {color: blue; text-decoration: underline;}
+		
+		.block-container {display:block;background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); padding: 15px; width: 100%; margin: 20px 15px;}
+		
+	    .back-button-container {display: flex; justify-content: space-between;}
+
+        .back-button {display: block; margin: 20px 15px; padding: 10px 20px; border-radius: 8px; background-color: #333; color: #fff; text-decoration: none; transition: background-color 0.3s ease;}
+
+        .back-button:hover {background-color: #555;}
+	</style>
+</head>
+
+<body>
+    <header>
+        <h1>Menu 3 - XML Schema and CSS Presentation</h1>
+    </header>
+    
+	<nav>
+        <a href="../menu0/menu0.html">Main Menu</a>
+		<a href="../menu1/menu1.html">Menu 1</a>
+        <a href="../menu2/menu2.html">Menu 2</a>
+        <a href="../menu3/menu3.html">Menu 3</a>
+        <a href="../menu4/menu4.html">Menu 4</a>
+    </nav>
+	
+	<div class="block-container">
+		<h2>My XML document with a CSS stylization:</h2>
+			<div class="xml-img-container">
+				<iframe src="../menu2/menu2.xml" style="height:700px;width:1400px;" alt="XML document with a CSS stylization"></iframe>
+			</div>
+	</div>
+	
+	<div class="block-container">
+        <h2>Well validation of XML Schema:</h2>
+		<img class="validation-img" src="XSD_validation.png" alt="Screen from XML Schema validator where everything is fine">
+		<p>I validated my documents on this page: <a href="https://www.corefiling.com/opensource/schemavalidate/" target="_blank" class="validation-link">www.corefiling.com/schemavalidate/</a></p>
+	</div>
+	
+	<div class="back-button-container">
+        <a href="../menu2/menu2.html" class="back-button">Go back to the previous page - XML Document</a>
+        <a href="../menu0/menu0.html" class="back-button">Return to the Main Menu</a>
+        <a href="../menu4/menu4.html" class="back-button">Go to the next page - XSLT Transformations</a>
+    </div>
+</body>
+</html>

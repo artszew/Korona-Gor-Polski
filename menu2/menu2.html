@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu 2 - XML Document</title>
+    <style>
+        
+		.block-container {background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); padding: 15px; width: 100%; margin: 20px 15px;}
+		
+		body {font-family: Arial, sans-serif; background-color: #f4f4f4; margin:0; padding:0;}
+
+        header {background-color: #333; color: #ffffff; text-align: center; padding: 10px;}
+
+		nav {background-color: #333; color: #ffffff; text-align: center; padding: 0px 10px 10px 10px;}
+			
+		nav a {color: #ffffff; text-decoration: none; margin: 0 15px;}
+
+        section {display: flex; justify-content: space-around; flex-wrap: wrap; padding: 20px;}
+
+        .xml-img-container {width: 100%; overflow-x: scroll; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border: 5px solid #555}
+
+        .validation-img {width: 50%; margin-top: 10px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border: 5px solid #555;}
+
+        .text-block {width: 100%; margin: 20px 15px; padding: 10px; background-color: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); white-space: pre-wrap;}
+
+        .text-block h2 {margin-top: 0px; padding-top: 0px;}
+
+        .validation-link {color: #333; text-decoration: none;}
+		
+		.validation-link:hover {color: blue; text-decoration: underline;}
+		
+		.back-button-container {width: 100%; display: flex; justify-content: space-between;}
+
+        .back-button {display: block; margin: 20px 15px; padding: 10px 20px; border-radius: 8px; background-color: #333; color: #fff; text-decoration: none; transition: background-color 0.3s ease;}
+
+        .back-button:hover {background-color: #555;}
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Menu 2 - XML document presentation</h1>
+    </header>
+    
+	<nav>
+        <a href="../menu0/menu0.html">Main Menu</a>
+		<a href="../menu1/menu1.html">Menu 1</a>
+        <a href="../menu2/menu2.html">Menu 2</a>
+        <a href="../menu3/menu3.html">Menu 3</a>
+        <a href="../menu4/menu4.html">Menu 4</a>
+    </nav>
+    
+	<section>
+		<div class="block-container">
+			<h2>An XML tree presenting the elements and attributes used in this document:</h2>
+			<div class="xml-img-container">
+				<img src="xml-tree.png" alt="XML tree showing a structure of document">
+			</div>
+		</div>
+        <div class="text-block">
+            <h2>Data types used in this document:</h2>
+			about_crown - long text - string
+			
+			name in peak - text - string
+			height - text consisting of an integer and the expression "m.a.s.l."
+			first_ascent - text consisting of a date or a string of characters
+			range - text - string
+			country - text - string
+			voivodeship - text - string
+			national_park - text - string
+			comment - long text - string
+			
+			name in country in countries - text - string
+			c_surface - integer number and 'km2' expression
+			c_capital - text
+			currency - one value from: PLN/EUR/CZK
+			
+			name in voivodeship in voivodeship - text - string
+			v_surface - integer number and 'km2' expression
+			v_capital - text - string
+			
+			name in national_park in national_parks - text
+			voivodeship in national_park - text
+			year_of_formed - integer number
+			np_surface - fixed-point number and 'km2' expression
+			
+			name in author - text - string.
+			university - text - string.
+			a_id - integer number.
+        </div>
+        <div class="block-container">
+            <h2>Well formed validation of XML document:</h2>
+			<img class="validation-img" src="XML-validation.png" alt="Screen from XML validator">
+			<p>I validated my document on this page: <a href="https://www.xmlvalidation.com/index.php?id=1&L=0" target="_blank" class="validation-link">www.xmlvalidation.com</a></p>
+		</div>
+	</section>
+
+    <div class="back-button-container">
+        <a href="../menu1/menu1.html" class="back-button">Back to the previous page - Information About Author</a>
+        <a href="../menu0/menu0.html" class="back-button">Return to the Main Menu</a>
+        <a href="../menu3/menu3.html" class="back-button">Go to the next page - XML ​​Schema</a>
+    </div>
+</body>
+</html>
